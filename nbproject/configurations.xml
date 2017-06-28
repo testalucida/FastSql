@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="Controller" projectFiles="true">
+      <itemPath>Action.h</itemPath>
+      <itemPath>DialogStore.cpp</itemPath>
+      <itemPath>DialogStore.h</itemPath>
+      <itemPath>QueryIO.cpp</itemPath>
+      <itemPath>QueryIO.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f4" displayName="DataAccess" projectFiles="true">
+      <itemPath>FileIO.cpp</itemPath>
+      <itemPath>FileIO.h</itemPath>
+      <itemPath>MruStore.cpp</itemPath>
+      <itemPath>MruStore.h</itemPath>
+      <itemPath>Preferences.cpp</itemPath>
+      <itemPath>Preferences.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f3" displayName="Model" projectFiles="true">
+      <itemPath>Mru.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="View" projectFiles="true">
+      <itemPath>FastSqlDialog.cpp</itemPath>
+      <itemPath>FastSqlDialog.h</itemPath>
+      <itemPath>MruListView.cpp</itemPath>
+      <itemPath>MruListView.h</itemPath>
+      <itemPath>QueryEditor.cpp</itemPath>
+      <itemPath>QueryEditor.h</itemPath>
+      <itemPath>ResultTable.cpp</itemPath>
+      <itemPath>ResultTable.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>main.cpp</itemPath>
+    <itemPath>std.h</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandLine>`fltk-config --cxxflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <commandLine>`fltk-config --ldstaticflags`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Action.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DialogStore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DialogStore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FastSqlDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FastSqlDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mru.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MruListView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MruListView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MruStore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MruStore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Preferences.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Preferences.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueryEditor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QueryEditor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueryIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QueryIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ResultTable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ResultTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="std.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Action.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DialogStore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DialogStore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FastSqlDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FastSqlDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mru.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MruListView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MruListView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MruStore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MruStore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Preferences.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Preferences.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueryEditor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QueryEditor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueryIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QueryIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ResultTable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ResultTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="std.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

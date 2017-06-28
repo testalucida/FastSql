@@ -1,0 +1,2 @@
+/home/martin/projects/cpp/FastSql/testsql/myquery_1.sql
+/home/martin/projects/cpp/FastSql/testsql/myquery_2.sql
